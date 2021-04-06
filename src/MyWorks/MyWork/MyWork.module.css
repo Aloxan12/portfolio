@@ -1,0 +1,16 @@
+.work{
+    background-color: grey;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img{
+    width: 150px;
+    height: 150px;
+    background-color: #726f77;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

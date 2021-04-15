@@ -16,7 +16,6 @@ function Contacts() {
                 </form>
                 <button className={style.contBtn}>Отправить</button>
             </div>
-
         </div>
     )
 }

@@ -16,3 +16,12 @@
     text-decoration: none;
     color: #cb1597;
 }
+
+@media screen and (max-width: 420px) {
+    .footer{
+        height: 40vh;
+    }
+    .footerBlock {
+        flex-direction: column;
+    }
+}

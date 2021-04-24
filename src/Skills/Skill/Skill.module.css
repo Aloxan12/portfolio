@@ -11,3 +11,8 @@
     height: 60px;
     background-color: #726f77;
 }
+@media screen and (max-width: 780px) {
+    .skill {
+        width: 200px;
+    }
+}

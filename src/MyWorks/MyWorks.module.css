@@ -1,17 +1,40 @@
 .myWorksBlock{
     height: 100vh;
-    background-color: #d07cc0;
+    background-color: #1f1f20;
 }
 
 .myWorksContainer{
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
 }
 .title{
-    background-color: rgba(174,193,255,0.64);
+    margin: 0 0 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 5px;
+    position: relative;
+}
+.title h2{
+    font-weight: 300;
+    margin: 0;
+}
+.title::before {
+    content: '';
+    position: absolute;
+    width: 65px;
+    height: 2px;
+    background-color: darkcyan;
+    left: 50%;
+    bottom: -30px;
+    transform: translate(-50%, 50%);
+
 }
 .works{
     border: 1px solid;
+    margin-top: 30px;
     width: 100%;
     display: flex;
     justify-content: space-between;

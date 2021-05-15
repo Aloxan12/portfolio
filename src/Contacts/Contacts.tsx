@@ -1,6 +1,7 @@
 import React from 'react';
 import style from './Contacts.module.css';
 import styleContainer from "../Common/styles/Container.module.css";
+import Title from "../Common/components/title/Title";
 
 
 
@@ -8,7 +9,7 @@ function Contacts() {
     return (
         <div className={style.contacts}>
             <div className={`${styleContainer.container} ${style.contactsContainer}`}>
-                <h3 className={style.title}>Contacts</h3>
+                <Title title='Contacts' />
                 <form className={style.form}>
                     <input placeholder='Name'/>
                     <input placeholder='Email'/>

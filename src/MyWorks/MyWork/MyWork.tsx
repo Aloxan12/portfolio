@@ -4,14 +4,18 @@ import style from './MyWork.module.css'
 type MyWorkType = {
     title: string
     description: string
+    style: any
 }
 
 function MyWork(props: MyWorkType) {
+
     return (
         <div className={style.work}>
-            <div className={style.img}><button>Смотреть</button></div>
-            <h3>{props.title}</h3>
-            <span className={style.description}>{props.description}</span>
+            <div className={style.img} style={props.style}><button>Смотреть</button></div>
+            <div className={style.workInfo}>
+                <h3 className={style.workTitle}>{props.title}</h3>
+                <span className={style.description}>{props.description}</span>
+            </div>
         </div>
     )
 }

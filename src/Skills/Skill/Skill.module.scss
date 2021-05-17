@@ -1,0 +1,44 @@
+@import "src/Common/styles/sass/variables";
+@import "src/Common/styles/sass/mixins";
+
+.skill {
+  width: 250px;
+  background-color: $bigColor;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  .title {
+    @include text($titleFontFamily, 26px, 1.8);
+  }
+
+  .icon {
+    width: 0;
+    height: 0;
+    border: 50px solid transparent;
+    border-bottom-color: #363637;
+    position: relative;
+    top: -50px;
+
+    &:after {
+      content: "";
+      width: 0;
+      height: 0;
+      position: absolute;
+      left: -50px;
+      top: 50px;
+      border: 50px solid transparent;
+      border-top-color: #363637;
+    }
+  }
+
+  @media screen and (max-width: 780px) {
+    width: 200px;
+  }
+
+  .description {
+    @include text($textFontFamily, 12px, 1.8);
+  }
+}
+

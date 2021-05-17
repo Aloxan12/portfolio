@@ -1,13 +1,13 @@
 import React from 'react';
-import style from './MyWorks.module.css'
+import style from './MyWorks.module.scss'
 import styleContainer from "../Common/styles/Container.module.css";
 import MyWork from "./MyWork/MyWork";
 import Title from "../Common/components/title/Title";
-import social from "../assets/image/social.jpg";
+import socialImage from "../assets/image/social.jpg";
 //123
 function MyWorks() {
     const social = {
-        backgroundImage: 'url(' + "../assets/image/social.jpg" + ')',
+        backgroundImage: `url(${socialImage})`,
     };
     return (
         <div className={style.myWorksBlock}>

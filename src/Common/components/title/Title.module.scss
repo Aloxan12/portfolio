@@ -1,24 +1,28 @@
+@import "src/Common/styles/sass/variables";
+
+
 .title{
     margin: 0 0 30px;
-    font-family: 'Josefin Sans', sans-serif;
-    color: #fff;
+    font-family: $titleFontFamily;
+    color: $textColor;
+    font-weight: 300;
     text-transform: capitalize;
     font-size: 36px;
     line-height: 1.2;
     letter-spacing: 5px;
     position: relative;
-}
-.title h2{
-    font-weight: 300;
+  .title h2{
     margin: 0;
-}
-.title::before {
+  }
+  &::before {
     content: '';
     position: absolute;
     width: 65px;
     height: 2px;
-    background-color: darkcyan;
+    background-color: $primaryColor;
     left: 50%;
     bottom: -30px;
     transform: translate(-50%, 50%);
+  }
 }
+

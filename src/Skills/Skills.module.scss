@@ -1,23 +1,23 @@
-.skillsBlock{
-    height: 100vh;
-    background-color: #46ffba;
-}
+@import "src/Common/styles/sass/variables";
 
-.skillsContainer{
+.skillsBlock {
+  height: 100vh;
+  background-color:$bigSecondColor;
+
+  .skillsContainer {
     flex-direction: column;
     justify-content: flex-start;
-}
-
-.skills{
+  }
+  .skills{
     border: 1px solid;
     width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-}
-@media screen and (max-width: 900px) {
-    .skills {
+    @media screen and (max-width: 900px) {
         flex-direction: column;
         align-items: center;
     }
+  }
 }
+

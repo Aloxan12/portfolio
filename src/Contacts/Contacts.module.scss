@@ -1,0 +1,35 @@
+@import "src/Common/styles/sass/variables";
+
+.contacts{
+    height: 100vh;
+    background-color: $bigSecondColor;
+    .contactsContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .form{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid;
+        padding: 20px;
+        & input{
+            padding: 10px;
+            margin-bottom: 15px;
+        }
+        & textarea{
+            min-height: 150px;
+        }
+    }
+    .contBtn{
+        padding: 15px;
+        background-color: #90daea;
+        margin-bottom: 15px;
+    }
+}
+
+
+
+
+

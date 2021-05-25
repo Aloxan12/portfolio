@@ -1,0 +1,15 @@
+@import "src/Common/styles/sass/variables";
+.nav{
+    border: 1px solid black;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    & a{
+        text-decoration: none;
+        color: $textColor;
+    }
+    & a:hover{
+        color: gold;
+        transition: .2s;
+    }
+}

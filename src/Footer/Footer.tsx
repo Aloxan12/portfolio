@@ -9,8 +9,8 @@ function Footer() {
             <div className={`${styleContainer.container} ${style.footerContainer}`}>
                 <span>Alexey Shavel</span>
                 <div className={style.footerBlock}>
-                    <a href='#'>vk</a>
-                    <a href='#'>instagram</a>
+                    <a href='https://vk.com/id64824633'>vk</a>
+                    <a href='https://www.instagram.com/kvakvaaa/'>instagram</a>
                     <a href='#'>facebook</a>
                     <a href='#'>twitter</a>
                     <a href='#'>Linkedin</a>

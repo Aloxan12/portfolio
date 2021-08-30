@@ -1,15 +1,18 @@
 @import "src/Common/styles/sass/variables";
 .nav{
-    border: 1px solid black;
-    width: 300px;
+    width: 30%;
     display: flex;
     justify-content: space-between;
     & a{
         text-decoration: none;
         color: $textColor;
+        letter-spacing: 1.4px;
     }
     & a:hover{
         color: gold;
         transition: .2s;
+    }
+    @media screen and (max-width: 1000px) {
+        width: 85%;
     }
 }

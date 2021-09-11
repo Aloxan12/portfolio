@@ -14,22 +14,12 @@
   }
 
   .icon {
-    width: 0;
-    height: 0;
-    border: 50px solid transparent;
-    border-bottom-color: #363637;
-    position: relative;
-    top: -50px;
-
-    &:after {
-      content: "";
-      width: 0;
-      height: 0;
-      position: absolute;
-      left: -50px;
-      top: 50px;
-      border: 50px solid transparent;
-      border-top-color: #363637;
+    width: 70%;
+    img{
+      margin-top: 10px;
+      border-radius: 5px;
+      width: 100%;
+      min-height: 130px;
     }
   }
 

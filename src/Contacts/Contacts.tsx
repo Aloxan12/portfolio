@@ -13,6 +13,7 @@ function Contacts() {
                 <form className={style.form}>
                     <input placeholder='Name'/>
                     <input placeholder='Email'/>
+                    <input placeholder='Phone'/>
                     <textarea></textarea>
                 </form>
                 <button className={style.contBtn}>Отправить</button>
